@@ -29,7 +29,7 @@ def load_data():
 df = load_data()
 
 if not df.empty:
-    st.title('ἳD Smart Factory Operational Intelligence')
+    st.title('Manufacturing Process Health and Operational Efficiency Analysis in 6G-Enabled Smart Factories')
     st.sidebar.header('Filter Controls')
 
     m_list = sorted(df['Machine_ID'].unique())
